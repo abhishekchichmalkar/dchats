@@ -56,7 +56,8 @@ body {
   }
   
 header {
-	background-color:#196F3D ;
+
+	background-color: #C0C0C0;
 	height: 10vh;
 	min-height: 50px;
 	color: white;
