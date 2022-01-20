@@ -27,7 +27,7 @@
 to that variable that means anytime the user types into the form the value of the variable will change--> 
 
 
-<button class="login" on:click={login}>Login</button>
+<button class="login" on:click={login}>Sign in</button>
 <button class="login"  on:click={signup}>Sign Up</button>
 
 <!--both the login and signup process which itself just consists of two different buttons 
