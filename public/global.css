@@ -5,7 +5,7 @@ html, body {
 }
 
 body {
-	color: #808080;
+	color: rgb(41, 92, 26);
 	margin: 0;
 	box-sizing: border-box;
 	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
@@ -46,7 +46,7 @@ input:disabled {
 
 
 body {
-	background-color:#232B38;
+	background-color: #000000;/*back-back-background*/
   }
   
 .app {
@@ -56,8 +56,7 @@ body {
   }
   
 header {
-
-	background-color: #C0C0C0;
+	background:linear-gradient(to right, #ff105f,#ffad06);
 	height: 10vh;
 	min-height: 50px;
 	color: white;
@@ -71,15 +70,15 @@ header {
 	z-index: 99;
 	padding: 10px;
 	box-sizing: border-box;
-  }
+}
   
-.container {
+.container{
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	min-height: 100vh;
-	background-color: rgb(40, 37, 53);
-  }
+	background-color: rgb(255, 255, 255);
+ }
   
   main {
 	height: 80vh;
@@ -113,7 +112,7 @@ header {
   
   form button {
 	width: 20%;
-	background-color: rgb(72, 207, 79);
+	background: linear-gradient(to right, #ff105f,#ffad06);
   }
   
   
@@ -151,11 +150,28 @@ header {
 	cursor: not-allowed;
   }
 
-  
+ 
   
   .login {
-	margin: 1rem 10rem 10rem;
-	background: #254117;
+	margin: 1rem 0 0;
+	background: linear-gradient(to right, #ff105f,#ffad06);
+	width: 200px;
+	margin-left: 270px;
+	margin-top: 50px;
+	border-radius: 12px;
+  }
+
+  .inputbaba{
+	  background: transparent;
+	  margin: 20px 0px 20px 220px;
+	  border-bottom: 1px solid #999;
+	  width: 300px;
+	  align-items: center;
+	  color: black;
+  }
+
+  .inputui{
+	  margin-top: 180px;
   }
   
   label {
@@ -249,4 +265,25 @@ header {
   .signout-button {
 	  font-size: 0.8rem;
 	  padding: 0.5rem 1rem;
+	  border-radius: 25px;
+  }
+
+  .tophead{
+	  height: 0px;
+  }
+  
+  .ipmassage{
+	  background: rgb(255, 255, 255); 
+	  border-style: solid;
+      border-color: #ff105f;
+	  border-radius: 25px;
+	  color: black;
+  }
+
+  .para{
+	  color: forestgreen;
+	  margin-left: 100px;
+  }
+  .sendbtn{
+	  border-radius: 25px;
   }
