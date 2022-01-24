@@ -87,9 +87,9 @@
     </main>
 
     <form on:submit|preventDefault={sendMessage}>
-      <input type="text" placeholder="Type a message..." bind:value={newMessage} maxlength="100" />
+      <input class="ipmassage" type="text" placeholder="Type a message..." bind:value={newMessage} maxlength="100" />
 
-      <button type="submit" disabled={!newMessage}>💥</button>
+      <button class="sendbtn" type="submit" disabled={!newMessage}>📨</button>
     </form>
 
 
@@ -110,3 +110,4 @@
     </main>
   {/if}
 </div>
+
