@@ -7,19 +7,16 @@
   }
 </script>
 
-<header>
-<h1>💬</h1>
+<header class="tophead">
   {#if $username}
     <div class="user-bio">
-      
-      <span>Hiii... <strong>{$username}</strong></span>
+      <span>Hello<strong>{$username}</strong></span>
       <img src={`https://avatars.dicebear.com/api/initials/${$username}.svg`} alt="avatar" /> 
     </div>
 
-    <button class="signout-button" on:click={signout}>Log Out</button>
-
+    <button class="signout-button" on:click={signout}>Sign Out</button>
     {:else}
-
-      <h3>dChat</h3>
+      <h1 style="color:white;">dChat</h1>
+      
   {/if}
 </header>
