@@ -17,18 +17,19 @@
   }
 </script>
 
-<label for="username">Username</label>                                                 
-<input name="username" bind:value={username} minlength="3" maxlength="16" /> 
-
-<label for="password">Password</label>
-<input name="password" bind:value={password} type="password" />
-
-<!--two-way data binding with a variable bycreating a form input and then saying bind value 
-to that variable that means anytime the user types into the form the value of the variable will change--> 
 
 
-<button class="login" on:click={login}>Sign in</button>
+<input class="inputbaba inputui" name="username" placeholder="User Id" bind:value={username} minlength="3" maxlength="16" /> 
+
+<input class="inputbaba inputep" name="password" placeholder="Enter password" bind:value={password} type="password" />
+
+ <!--two-way data binding with a variable bycreating a form input and then saying bind value 
+ to that variable that means anytime the user types into the form the value of the variable will change--> 
+
+
+<button class="login" on:click={login}>Login</button>
 <button class="login"  on:click={signup}>Sign Up</button>
+<p class="para">Sign in or Sign up</p>
 
-<!--both the login and signup process which itself just consists of two different buttons 
-that will either call the login function or the sign up function to log a user-->
+ <!--both the login and signup process which itself just consists of two different buttons 
+ that will either call the login function or the sign up function to log a user-->
